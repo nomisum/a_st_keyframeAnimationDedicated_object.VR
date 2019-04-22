@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4658.3364,10.660531,5159.1611};
-		dir[]={0.40514448,-0.49943408,-0.76582718};
-		up[]={0.23355286,0.86634248,-0.44147468};
-		aside[]={-0.88395792,2.951856e-007,-0.46763992};
+		pos[]={4656.186,13.918226,5163.1772};
+		dir[]={0.30415061,-0.60008579,-0.73990399};
+		up[]={0.22815433,0.79992825,-0.55502844};
+		aside[]={-0.92493653,1.9557774e-007,-0.38021234};
 	};
 };
 binarizationWanted=0;
@@ -73,7 +73,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=9;
+		items=8;
 		class Item0
 		{
 			dataType="Group";
@@ -1330,49 +1330,16 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item8
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={4661.2339,5,5155.4365};
-			};
-			id=9;
-			type="ControlPoint_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="TangentType";
-					expression="_this setVariable ['TangentType',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=7;
+			nextID=6;
 		};
 		class Links
 		{
-			items=7;
+			items=6;
 			class Item0
 			{
 				linkID=0;
@@ -1428,16 +1395,6 @@ class Mission
 				linkID=5;
 				item0=8;
 				item1=6;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item6
-			{
-				linkID=6;
-				item0=9;
-				item1=5;
 				class CustomData
 				{
 					type="Sync";
